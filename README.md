@@ -4,28 +4,6 @@ CampusBridge is a full-featured, interactive, and highly stylized directory plat
 
 ---
 
-## 🎨 Fresh Customization & Customizable Brand Slogan Feature
-CampusBridge includes a dynamic, real-time customizer accessible directly inside the Navigation bar via the **Palette (🎨) Icon**. 
-
-### Selectable Accent Themes
-We have replaced static colors with custom, reactive Tailwind CSS properties that adapt instantly when toggled:
-- 💛 **Amber Gold (Classic)**: A warm, cheerful, classic chalkboard vibe.
-- 💚 **Forest Emerald**: A fresh, high-contrast scholastic green.
-- 💙 **Indigo Royal**: An elegant, academic deep blue.
-- ❤️ **Sunset Crimson**: A bold, modern, vibrant red-pink.
-- 💜 **Lavender Dream**: A sophisticated, playful, and creative light violet.
-
-### Interactive Customizable Taglines
-The original static subtitle has been completely converted. Now we offer an interactive picker featuring standard, professional taglines or a text input for typing your own customized slogan:
-1. **"Bridging Parents, Schools & Futures"** (Default Slogan Choice)
-2. **"The Collaborative Admissions Portal"**
-3. **"The Smart Pathway to Academic Success"**
-4. **"Your Trusted Neighborhood School Finder"**
-5. **"Online Registry & Active Admissions Portal"**
-
-*All selected choices are cached automatically inside the browser's `localStorage` so they persist seamlessly across session reloads!*
-
----
 
 ## 🔁 Complete Platform Workflow Diagram
 
