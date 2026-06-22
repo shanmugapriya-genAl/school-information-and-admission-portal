@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom hand-drawn aesthetic styles helper classes */
+.sketchy-border {
+  border: 2px solid #1e293b;
+  border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+}
+
+.sketchy-border-sm {
+  border: 1.5px solid #334155;
+  border-radius: 120px 10px 110px 8px/8px 110px 8px 120px;
+}
+
+.sketchy-badge {
+  border: 1.5px solid #0f172a;
+  border-radius: 5px 15px 5px 10px/10px 5px 15px 5px;
+}
+
+.sketchy-underline {
+  position: relative;
+}
+
+.sketchy-underline::after {
+  content: '';
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  width: 100%;
+  height: 3px;
+  background-color: currentColor;
+  border-radius: 320px 20px 310px 15px/10px 310px 15px 320px;
+}
+
+/* Custom input style */
+.casual-input {
+  border: 1.5px solid #cbd5e1;
+  border-radius: 8px 12px 6px 10px/10px 6px 12px 8px;
+  transition: all 0.2s ease-in-out;
+}
+
+.casual-input:focus {
+  border-color: #3b82f6;
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.15);
+}
+

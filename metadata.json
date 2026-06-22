@@ -1,0 +1,6 @@
+{
+  "name": "CampusBridge",
+  "description": "An interactive registry portal for schools to list curriculum guidelines, school events, and admissions, and for parents to read verified reviews, follow schools, receive reminders, and submit applications.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
