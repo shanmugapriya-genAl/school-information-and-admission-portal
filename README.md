@@ -10,8 +10,7 @@ CampusBridge is a full-featured, interactive, and highly stylized directory plat
 The system coordinates the actions of two distinct roles: **Parents** looking for schools and **School Admin Registrars** updating directories.
 
 Below is the Mermaid workflow mapping of parent search pipelines, application submissions, and administrator review processing:
-
-```mermaid
+mermaid
 graph TD
     %% Base Roles & Auth Entry
     Start([🌐 Enter CampusBridge]) --> ChooseRole{Sign Up or Sign In?}
